@@ -1,0 +1,158 @@
+.typography {
+  &--variant {
+    &-h1 {
+      font-family: $halvar-breit-font-family;
+      font-size: 72px;
+      font-weight: normal;
+      line-height: 110%;
+      letter-spacing: -3.6px;
+      text-transform: uppercase;
+
+      @include mediaPhone {
+        font-size: 28px;
+        letter-spacing: -1.4px;
+      }
+    }
+
+    &-h2 {
+      font-family: $halvar-breit-font-family;
+      font-size: 48px;
+      font-weight: normal;
+      line-height: 110%;
+      letter-spacing: -2.4px;
+      text-transform: uppercase;
+
+      @include mediaPhone {
+        font-size: 24px;
+        letter-spacing: -1.2px;
+      }
+    }
+
+    &-h3 {
+      font-family: $halvar-breit-font-family;
+      font-size: 32px;
+      font-weight: normal;
+      line-height: 110%;
+      letter-spacing: -1.6px;
+      text-transform: uppercase;
+
+      @include mediaPhone {
+        font-size: 20px;
+        line-height: 120%;
+        letter-spacing: -1px;
+      }
+    }
+
+    &-h4 {
+      font-family: $halvar-breit-font-family;
+      font-size: 24px;
+      font-weight: normal;
+      line-height: 110%;
+      letter-spacing: -1.2px;
+      text-transform: uppercase;
+
+      @include mediaPhone {
+        font-size: 18px;
+        letter-spacing: -0.9px;
+      }
+    }
+
+    &-h5 {
+      font-family: $vela-sans-font-family;
+      font-size: 26px;
+      font-weight: bold;
+      line-height: 120%;
+
+      @include mediaPhone {
+        font-size: 16px;
+        line-height: 130%;
+      }
+    }
+
+    &-text-xl {
+      font-family: $vela-sans-font-family;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 130%;
+
+      @include mediaPhone {
+        font-size: 18px;
+        line-height: 140%;
+      }
+    }
+
+    &-text-l {
+      font-family: $vela-sans-font-family;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 140%;
+    }
+
+    &-text-m-medium {
+      font-family: $vela-sans-font-family;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 130%;
+    }
+
+    &-text-m-strike {
+      font-family: $vela-sans-font-family;
+      font-size: 16px;
+      font-weight: normal;
+      line-height: 140%;
+      text-decoration: line-through;
+    }
+
+    &-text-s-medium {
+      font-family: $vela-sans-font-family;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 130%;
+    }
+
+    &-text-s-bold {
+      font-family: $vela-sans-font-family;
+      font-size: 14px;
+      font-weight: bold;
+      line-height: 140%;
+      leading-trim: both;
+      text-edge: cap;
+    }
+
+    &-text-xs-medium {
+      font-family: $vela-sans-font-family;
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 140%;
+    }
+
+    &-text-xs-bold {
+      font-family: $vela-sans-font-family;
+      font-size: 12px;
+      font-weight: bold;
+      line-height: 140%;
+    }
+
+    &-text-xs-strike {
+      font-family: $vela-sans-font-family;
+      font-size: 12px;
+      font-weight: normal;
+      line-height: 140%;
+      text-decoration: line-through;
+    }
+
+    &-text-2xs {
+      font-family: $vela-sans-font-family;
+      font-size: 10px;
+      font-weight: normal;
+      line-height: 100%;
+    }
+
+    &-text-3xs {
+      font-family: $vela-sans-font-family;
+      font-size: 8px;
+      font-weight: normal;
+      line-height: 100%;
+    }
+  }
+}

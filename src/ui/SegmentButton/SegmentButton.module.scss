@@ -1,0 +1,20 @@
+.segment-button {
+  display: flex;
+  gap: $space-8;
+
+  &__item {
+    background: transparent;
+    border: none;
+    border-radius: $corner-4;
+    cursor: pointer;
+    color: inherit;
+
+    &:hover {
+      background: $color-button-hover;
+    }
+    
+    &--active {
+      outline: 1px solid $color-stroke;
+    }
+  }
+}

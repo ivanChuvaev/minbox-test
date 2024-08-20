@@ -1,0 +1,19 @@
+.main {
+  padding: $space-32;
+
+  @include mediaPhone {
+    padding: 0;
+    padding-top: $space-32;
+  }
+
+  &__title {
+    color: $color-title;
+    text-align: center;
+  }
+
+  &__paper {
+    margin: 0 auto;
+    margin-top: $space-32;
+    max-width: 600px;
+  }
+}

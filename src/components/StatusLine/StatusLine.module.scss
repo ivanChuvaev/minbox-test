@@ -1,0 +1,15 @@
+.status-line {
+  padding: $space-8;
+  color: $color-text-secondary;
+  border-top: 1px solid $color-stroke;
+
+  &__line {
+    display: flex;
+    justify-content: space-between;
+    gap: $space-8;
+
+    &--center {
+      justify-content: center;
+    }
+  }
+}

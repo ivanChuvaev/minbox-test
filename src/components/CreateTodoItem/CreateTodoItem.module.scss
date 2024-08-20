@@ -1,0 +1,41 @@
+.create-todo-item {
+  display: flex;
+  padding: $space-8;
+  gap: $space-8;
+  align-items: start;
+  border-bottom: 1px solid $color-stroke;
+
+  &__input-wrapper {
+    position: relative;
+    flex-grow: 1;
+  }
+
+  &__input {
+    width: 100%;
+    &:focus {
+      outline: none;
+    }
+  }
+
+  &__placeholder {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    pointer-events: none;
+    color: $color-placeholder;
+    opacity: 1;
+    transition: opacity linear #{$transition-duration-fast}ms;
+
+    &--focus {
+      opacity: 0.3;
+    }
+  }
+
+  &__end-icons {
+    flex-shrink: 0;
+    display: flex;
+    gap: $space-8;
+  }
+}

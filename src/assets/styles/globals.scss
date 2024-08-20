@@ -1,0 +1,10 @@
+body {
+  font-family: $vela-sans-font-family;
+  background-color: $color-background;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: $halvar-breit-font-family;
+  text-transform: capitalize;
+  margin: 0;
+}

@@ -1,0 +1,24 @@
+// ==============================================
+// Primitive colors
+// ==============================================
+
+$white: #FEFEFE;
+$black: #4D4D4D;
+$light-gray: #7B7B7B;
+$white-smoke: #F5F5F5;
+$diminished-red: #caa3a0;
+
+// ==============================================
+// Appliable colors
+// ==============================================
+
+$color-background: $white-smoke;
+$color-title: $diminished-red;
+$color-paper: $white;
+$color-text-primary: $black;
+$color-text-secondary: $light-gray;
+$color-stroke: $diminished-red;
+$color-button-hover: $white-smoke;
+$color-checkbox-hover-background: $diminished-red;
+$color-button-variant-text-hover-background: $white-smoke;
+$color-placeholder: $light-gray;

@@ -1,0 +1,17 @@
+.todo-item {
+  display: flex;
+  align-items: start;
+  gap: $space-8;
+  padding: $space-8;
+
+  &__description {
+    flex-grow: 1;
+    white-space-collapse: preserve;
+    transition: color linear #{$transition-duration-fast}ms;
+
+    &--completed {
+      color: $color-text-secondary;
+      text-decoration: line-through;
+    }
+  }
+}

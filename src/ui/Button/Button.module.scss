@@ -1,0 +1,15 @@
+.button {
+  display: inline-block;
+  border-radius: $corner-4;
+  color: inherit;
+  cursor: pointer;
+
+  &--variant-text {
+    background: transparent;
+    border: none;
+
+    &:hover {
+      background: $color-button-variant-text-hover-background;
+    }
+  }
+}
